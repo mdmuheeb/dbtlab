@@ -1,6 +1,6 @@
-with md as
+with EMP1 as
 (
-select * from dbt_schema.emp1
+select * from DBT_SCHEMA.EMP1
 where emp_sal >50000
 )
-select * from md
+select * from EMP1
